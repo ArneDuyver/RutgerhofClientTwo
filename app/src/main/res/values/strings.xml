@@ -17,4 +17,7 @@
     <string name="menu_website">Onze website</string>
     <string name="menu_info">Info</string>
 
+    <string name="registerActivity_text">Heeft u het formulier ingevuld\nof bent u al geregistreerd vandaag?</string>
+    <string name="registerActivity_btn">klik hier</string>
+
 </resources>

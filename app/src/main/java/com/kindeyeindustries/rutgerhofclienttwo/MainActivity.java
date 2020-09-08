@@ -124,6 +124,11 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
+
     public boolean isConnectedToInternet(){
         boolean connected = false;
         ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
