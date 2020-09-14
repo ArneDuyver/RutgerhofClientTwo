@@ -164,9 +164,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://rutgerhof.be"));
                 startActivity(browserIntent);
                 return true;
-            case R.id.menu_info:
-                //TODO: make info activity and point to it
-                return true;
         }
         return super.onOptionsItemSelected(item);
     }
