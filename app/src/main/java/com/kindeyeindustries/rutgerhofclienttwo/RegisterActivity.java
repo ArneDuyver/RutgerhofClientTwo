@@ -2,12 +2,14 @@ package com.kindeyeindustries.rutgerhofclienttwo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -18,6 +20,7 @@ public class RegisterActivity extends AppCompatActivity {
     private TextView error,text;
     private Button btn;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +40,8 @@ public class RegisterActivity extends AppCompatActivity {
             WebView webView = findViewById(R.id.registerActivity_webView);
             webView.setWebViewClient(new WebViewClient());
             webView.loadUrl("https://docs.google.com/forms/d/e/1FAIpQLSdwBYcrg2jO3T2D6WAdi9ESnwJ0nRrtuntXX-WT-TheiEsgLQ/viewform?usp=sf_link");
+            WebSettings webSettings = webView.getSettings();
+            webSettings.setJavaScriptEnabled(true);
         } else {
             error.setText(R.string.mainActivity_noInternetConnection);
         }
