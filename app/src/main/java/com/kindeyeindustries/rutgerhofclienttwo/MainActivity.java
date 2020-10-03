@@ -157,6 +157,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_home:
                 //startActivity(new Intent(MainActivity.this, MainActivity.class));
                 return true;
+            case R.id.menu_bellen:
+                startActivity(new Intent(MainActivity.this, MainActivity.class));
+                return true;
             case R.id.menu_menu:
                 startActivity(new Intent(MainActivity.this, WebsiteMenu.class));
                 return true;

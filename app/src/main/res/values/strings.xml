@@ -7,12 +7,13 @@
     <string name="mainActivity_btn_menu">Menu</string>
 
     <string name="mainActivity_welcomeText">Welkom in het Rutgerhof.\n\nZiet u geen ober?\nDan kan u er een bellen door op de gepaste knop te drukken.\nGelieve hem/haar bij aankomst een teken te geven.</string>
-    <string name="mainActivity_menuText">Om onze menu te bekijken\ndruk op nevenstaande knop: </string>
+    <string name="mainActivity_menuText">Om onze menu te\nbekijken, druk hier: </string>
     <string name="mainActivity_ToastMessage">Een ober komt zo snel mogelijk ter plaatse.</string>
     <string name="mainActivity_ToastFail">Een onbekende fout is opgedoken, probeer het later opnieuw.</string>
     <string name="mainActivity_noInternetConnection">U bent niet verbonden met het internet. Verbind via wifi of mobiele data en probeer opnieuw.</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_bellen">Bellen</string>
     <string name="menu_menu">Menu</string>
     <string name="menu_website">Onze website</string>
     <string name="menu_info">Info</string>

@@ -60,6 +60,7 @@ public class WebsiteMenu extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.menu_home:
+            case R.id.menu_bellen:
                 startActivity(new Intent(WebsiteMenu.this, MainActivity.class));
                 return true;
             case R.id.menu_menu:
